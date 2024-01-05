@@ -26,7 +26,7 @@
 
  function startLoadingProgress() {
      loadingProgress.forEach((progress, index) => {
-         startLoading(progress, valueShowProgress[index], countProgress, 50);
+         startLoading(progress, valueShowProgress[index], countProgress, 100);
      });
  }
 

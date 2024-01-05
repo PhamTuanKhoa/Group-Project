@@ -486,8 +486,8 @@ label {
   display: inline-block; 
 }
 
-.group-page a {
-  text-decoration: none;
+.group-page span {
+
   color: #3ce848f6;
   font-size: 18px;
 }
@@ -496,8 +496,8 @@ label {
   margin-top: 3px;
 }
 
-.project-page a {
-  text-decoration: none;
+.project-page span {
+  /* text-decoration: none; */
   color: #3ce848f6;
   font-size: 18px;
 }
