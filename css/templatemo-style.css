@@ -402,7 +402,7 @@ margin-top: 80px;
 .card {
   background-color: #242628;
   width: 400px;
-  height: 780px;
+  height: 523px;
   border-radius: 10px;
   text-align: center;
   /*canh giua man hinh*/
@@ -486,6 +486,18 @@ label {
   display: inline-block; 
 }
 
+.group-page a {
+
+  color: #3ce848f6;
+  font-size: 18px;
+}
+
+.group-page a:hover {
+
+  color: var(--primary-key);
+  font-size: 18px;
+}
+
 .group-page span {
 
   color: #3ce848f6;
@@ -494,6 +506,18 @@ label {
 .project-page  label {
   width: 100%;
   margin-top: 3px;
+}
+
+.project-page a {
+  /* text-decoration: none; */
+  color: #3ce848f6;
+  font-size: 18px;
+}
+
+.project-page a:hover {
+  /* text-decoration: none; */
+  color: var(--primary-key);
+  font-size: 18px;
 }
 
 .project-page span {
