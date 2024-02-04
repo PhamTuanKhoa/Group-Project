@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Group 13</title>
+<!-- 
+Hydro Template 
+http://www.templatemo.com/tm-509-hydro
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
+<body>
+
+     <style>
+          .to-project {
+              border-radius: 30px !important;
+              background-color: #009879 !important;
+              color: white !important;
+          }
+  
+          .to-project:hover {
+              background-color: rgb(3, 100, 80) !important;
+              color: white !important;
+          }
+      </style>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top top-nav-collapse" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Group 13</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="./index.html" class="smoothScroll">Home</a></li>
+                         <li><a href="./about.html" class="smoothScroll">About</a></li>
+                         <li><a href="./technial.html" class="smoothScroll">Technical</a></li>
+                         <li><a href="./group-diary.html" class="smoothScroll">Group Diary</a></li>
+                         <li><a href="./project.html" class="smoothScroll">Project</a></li>
+                         <li><a href="./contact.html" class="smoothScroll">Contacts</a></li>
+                         <li><a href="./style-guide.html" class="smoothScroll">Style Guide</a></li>
+                         <li><a href="#" class="smoothScroll to-project">To Project</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- HOME -->
+     <main id="main">
+
+        <!-- ======= Our technical Section ======= -->
+        <section id="technical" class="services sections-bg" style="background-color: #fff;;">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-header">
+              <h2>Technical</h2>
+            </div>
+            <!------Start about technical-->
+            <div class="service">
+              <div class="container">
+                <div class="selection-header text-left">
+                  <h2>Hướng dẫn sử dụng Firebase</h2>
+                </div>
+                <h5>Firebase là gì? Cách "triển khai" một trang web tới Firebase. <div> Hôm nay nhóm 13 sẽ giới thiệu về Firebase và hướng dẫn các bạn cách triển khai "HTML-CSS-JS" vào firebase </div></h5>
+                <h4><b>1. Giới thiệu Firebase</b></h4>
+                <h5><b>Ý tưởng:</b></h5>
+                <h5>Firebase là dịch vụ cơ sở dữ liệu thời gian thực do Google cung cấp và được vận hành trên đám mây để hỗ trợ việc tạo các ứng dụng web và di động chất lượng cao.
+                  Với việc sử dụng Firebase, Nhà phát triển có thể tập trung vào việc phát triển ứng dụng của họ mà không cần lo lắng về cách sản phẩm của họ sẽ hoạt động, và được quản lý trên chương trình phụ trợ.</h5>
+                <h5><b>Thuận lợi:</b></h5>
+                <h5>
+    
+                  <li class="do1">Triển khai ứng dụng nhanh chóng: Firebase tiết kiệm rất nhiều thời gian quản lý và đồng bộ toàn bộ dữ liệu cho người dùng.
+                    Đó là bởi vì người dùng không bị áp lực, quan tâm đến phần được hỗ trợ, với các API tốt và hỗ trợ đa nền tảng.</li>
+                    <li class="do2">An toàn: Bạn có thể hoàn toàn yên tâm về tính bảo mật của Firebase nhờ nền tảng đám mây, kết nối qua SSL, sử dụng JavaScript cho quyền người dùng cơ sở dữ liệu, ...</li>
+                    <li class="do3">Ổn định: Được viết trên nền tảng đám mây do Google cung cấp, các công cụ luôn đảm bảo tính ổn định tối đa.
+                      Bên cạnh đó, quá trình nâng cấp hay bảo trì Server cũng diễn ra nhanh chóng và đơn giản hơn.</li>
+                    </h5>
+                      <h5><b>Nhược điểm:</b></h5>
+                      <h5>Cơ sở dữ liệu Firebase được tổ chức theo kiểu cây, mẹ-con. Trong khi đó, người dùng SQL đã quen với kiểu Table truyền thống. Khi sử dụng Firebase, người dùng có thể mất một thời gian để làm quen trước khi sử dụng thành thạo.</h5>
+                <h4><b>2. Cách tạo trang web trên Firebase</b></h4>
+                <h5>
+                  <b>2.1 </b>Chuẩn bị.<br>
+                        Cài đặt <a href="https://nodejs.org/en/"><span style="color: orange;">Nodejs</span></a><br><br>
+                        <img src="assets/imageTechnical/technical1.png" style="width:1100px"><br><br>
+                  <b>2.2 </b>Truy cập vào <a href="https://firebase.google.com/" target="_blank" style="color: red;">Firebase</a> và đăng nhập bằng tài khoản Google của bạn.<br>
+                            Bấm <b>Get started</b><br>
+                            <img src="assets/imageTechnical/technical2.png" style="width: 1100px">
+                            <br><br>Chọn <b>Thêm dự án</b></br></br>
+                            <img src="assets/imageTechnical/technical3.png" style="width:1100px">
+                            <br><br>Nhập tên <b>dự án</b> vào phần <b> name of the project</b> rồi nhấn <b>
+                            Continue</b><br><br>
+                            <img src="assets/imageTechnical/technical4.png" style="width:1100px">
+                            <br><br>Tiếp tục nhấn <b>Continue</b></br><br>
+                            <img src="assets/imageTechnical/technical5.png" style="width: 1100px;">
+                            <br><br>Nhấn <b>Create project</b><br><br>
+                            <img src="assets/imageTechnical/technical6.png" style="width:1115px">
+                            <b>2.3</b> Sau khi nhấn <b>Create project,</b>  bạn cần tạo tên miền cho riêng mình<br>
+                            <br>Bạn có thể truy cập vào <a href="https://www.freenom.com/vi/index.html?lang=vi" target="_blank">
+                                        Freenom</a> để tạo tên miền của mình. Sau đó, bạn cần đăng nhập tài khoản 
+                            <b>Email</b> của bạn.<br>
+                            <img src="assets/imageTechnical/technical7.png" style="width:1100px">
+                            <br><br>Sau khi đăng nhập rồi bạn chọn vào <b>Service</b> rồi chọn vào <b>Register a New Domain</b>
+                                    để tạo 1 tên miền mới.<br><br>
+                            <br><br> Sau khi nhập xong tên miền bạn cần kiểm tra xem tên miền đó có tồn tại hay không <br>
+                            <br> <b> Mẹo</b>: Bạn có thể tạo tên miền có đuôi <u><b>.tk</b></u><br>
+                            <br>Bạn có thể nhập tên miền mà mình muốn tạo vào ô <b>Tìm miền miễn phí mới</b>. Sau đó nhấn chọn <b>Kiểm tra miền hiện còn</b></br>
+                            <img src="assets/imageTechnical/technical8.png" style="width:1100px">
+                            <br> Nếu tên miền có sẵn thì nhấn chọn <b>Thanh toán</b> <br>
+                            <img src="assets/imageTechnical/technical9.png" style="width:1100px">
+                            <br>Đừng quên chọn số tháng bạn muốn sử dụng, bạn có thể sử dụng miễn phí trong vòng 12 tháng<br>
+                            <img src="assets/imageTechnical/technical10.png" style="width:1100px">
+                            <br>Sau khi chọn số tháng, hãy nhấp vào <b>Continue</b><br>
+                            <img>
+                            <br>Sang phần xác nhận đăng ký tên miền và thông tin, các bạn có thể đăng nhập bằng tài khoản gmail hoặc bằng tài khoản Email. <br>
+                            <img src="assets/imageTechnical/technical11.png" style="width:1100px">
+                            <br>Ở đây tôi đăng ký bằng email của tôi. Điền email và nhấn <b>Verify My Email Address.</b><br>
+                            <img src="assets/imageTechnical/technical12.jpg">
+                            <br>Bạn sẽ nhận được Email xác nhận như dưới đây. Chỉ cần <b>Click</b> mail đó.<br>
+                            <img src="assets/imageTechnical/technical13.jpg">
+                            <br>Tiến hành điền thông tin đăng ký tên miền( Thông tin chủ sở hữu miền).<br>
+                            <img src="assets/imageTechnical/technical14.jpg">
+                            <br>Sau đó nhấn <b>I have read and agree to the Terms and Conditions</b> rồi nhấn <b>Complete Order</b><br>
+                            <br>Sau đó bạn sẽ nhận được một thông báo đã đăng ký tên miền thành công.<br>
+                            <img src="assets/imageTechnical/technical15.jpg">
+                            <br><br><b>2.4: </b>Để mở được <b>cmd</b> bạn có dùng 1 trong 2 cách dưới đây.<br><br>
+                            <br><br><u> Cách 1:</u> Nhập <b>cmd</b> trên thanh <b>Type here to search</b> trên thanh công cụ(toolbar) rồi nhấn <b> Enter</b><br><br>
+                            <img src="assets/imageTechnical/technical16.jpg" style="width: 1100px;">
+                            <br><br><u> Cách 2:</u> Vào tạo 1 thư mục trống (các thư mục nên được đặt tên là không dấu). Sau đó nhập <b>cmd</b>
+                            rồi nhấn<b> Enter</b>.<br><br>
+                            <img src="assets/imageTechnical/technical17.png" style="width:1100px">
+                            <br></b>Sau khi mở <b>cmd</b> nhập <b>npm install -g firebase-tool </b>để cài đặt Firebase CLI. <br>
+                            <br>Sau khi cài đặt xong, các bạn kiểm tra bằng cách chạy lệnh <b>“firebase-version”</b>, nếu trả ra kết quả là phiên bản Firebase CLI thì bạn đã cài đặt thành công.<br>
+                            <img src="assets/imageTechnical/technical18.png">
+                            <br>Sau khi đã cài đặt Firebase CLI rồi, 
+                            chúng ta cần phải đăng nhập vào tài khoản Google đã tạo project trước đó. Các bạn chạy tiếp lệnh <b>“firebase login”</b><br>
+                            <br>Sau đó, một cửa sổ trình duyệt hiện ra, bạn hãy đăng nhập tài khoản mà bạn đã tạo Project trước đó.<br>
+                            <img src="assets/imageTechnical/technical19.png">
+                            <br>Tiếp tục, bạn cần phải cấp quyền cho Firebase CLI truy cập Google Cloud, Firebase Data của bạn, bấm <b>Allow</b> để chấp nhận cho phép truy cập.<br>
+                            <img src="assets/imageTechnical/technical20.png">
+                            <br>Khi nhìn thấy màn hình Successful nghĩa là bạn đã đăng nhập Firebase CLI thành công, bạn có thể tắt cửa sổ trình duyệt đi.<br>
+                            <img src="assets/imageTechnical/technical21.png">
+                            <br><b>* Tạo project Firebase Hosting</b><br>
+                            <br>Giờ thì chúng ta đã xong các bước thiết lập Firebase CLI, việc tiếp theo cần làm là tạo một project Firebase Hosting trên máy, 
+                            sau đó liên kết nói với project Firebase đã tạo lúc đầu.<br>
+                            <br>Đầu tiên bạn cần tạo một thư mục chứa project của bạn, sau đó mở nó với command line.
+                            Tiếp theo, bạn chạy lệnh <b>“firebase init hosting”</b>, nó sẽ hỏi bạn xác nhận tạo project firebase, bạn nhấn <b>“y”</b> và <b>Enter</b> để tiếp tục.<br>
+                            <img src="assets/imageTechnical/technical22.png">
+                            <br>Vì mình đã tạo project Firebase lúc đầu rồi, giờ bạn sẽ chọn <b>“Use an existing project”</b>, dùng các phím lên, xuống để di chuyển và <b>Enter</b>
+                              để chọn mục đó. Nó sẽ liệt kê các project mà bạn đang có, bạn chọn cái mà bạn tạo lúc đầu và enter để tiếp tục.<br>
+                              <br><img src="assets/imageTechnical/technical23.png"><br>
+                              <br><img src="assets/imageTechnical/technical24.png"><br>
+                              <br>Tiếp đến nó sẽ hỏi bạn tên thư mục mặc định cho public, bạn cứ để nó mặc định là public (không cần gõ gì hết và nhấn <b>Enter</b>), tiếp theo nó hỏi bạn có muốn chuyển hướng toàn bộ URL vào index.html hay không, bạn chọn <b>No</b> (gõ <b>“n”</b> và nhấn <b>Enter</b>),
+                              tiếp đến là setup automatic build với Github, bạn có thể chọn <b>Yes</b> hoặc<b> No.</b>
+                              <img src="assets/imageTechnical/technical25.png">
+                              <br><b>*Chú ý:</b><br>
+                              <br>Bạn cần chú ý file <b>firebase.json</b> và thư mục <b>public</b> thôi. Thư mục <b>public</b> là nơi chứa toàn bộ source của website, 
+                              hiện tại nó có sẵn 1 file <b>index.html</b> và 1 file <b>404.html</b>. File <b>firebase.json</b> là nơi chứa các settings cho project hiện tại.<br>
+                              <br>Bây giờ bạn có thể chạy thử hosting bằng cách chạy lệnh <b>“firebase serve-only hosting”</b>, 
+                              một hosting được mở ở port 5000, bạn truy cập <b>http://localhost:5000</b> để xem kết quả.<br>
+                              <img src="assets/imageTechnical/technical26.png">
+                              <br><b>*Deploy website lên Firebase Hosting</b><br>
+                              <br>Giờ việc còn lại chỉ là deploy lên Firebase Hosting. Đơn giản, bạn chỉ cần sử dụng lệnh <b>firebase deploy</b>, sau đó mọi thứ hãy để Firebase lo.
+                              Sau khi deploy thì bạn sẽ nhận được url đến mà website, thường nó sẽ có dạng <b>projectid.web.app</b> và <b>projectid.firebaseapp.com</b>. Như của mình là <b>khiemledemoapp.web.app</b> và <b>khiemledempapp.firebaseapp.com</b>.<br>
+    
+                </h5>
+    
+                
+              </div>
+            </div>
+      
+          </div>
+        </section><!-- End Our Services Section -->
+    
+        
+      </main>
+
+     <!-- FOOTER -->
+     <footer data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-5 col-sm-12">
+                         <div class="footer-thumb footer-info"> 
+                              <h2>Group 13</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Company</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">About Us</a></li>
+                                   <li><a href="#">Join our team</a></li>
+                                   <li><a href="#">Read Blog</a></li>
+                                   <li><a href="#">Press</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Services</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">Pricing</a></li>
+                                   <li><a href="#">Documentation</a></li>
+                                   <li><a href="#">Support</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Find us</h2>
+                              <p>123 Grand Rama IX, <br> Krung Thep Maha Nakhon 10400</p>
+                         </div>
+                    </div>                    
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="footer-bottom">
+                              <div class="col-md-6 col-sm-5">
+                                   <div class="copyright-text"> 
+                                        <p>Copyright &copy; 2017 Your Company</p>
+                                   </div>
+                              </div>
+                              <div class="col-md-6 col-sm-7">
+                                   <div class="phone-contact"> 
+                                        <p>Call us <span>(+66) 010-020-0340</span></p>
+                                   </div>
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- MODAL -->
+     <section class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+               <div class="modal-content modal-popup">
+
+                    <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                         </button>
+                    </div>
+
+                    <div class="modal-body">
+                         <div class="container-fluid">
+                              <div class="row">
+
+                                   <div class="col-md-12 col-sm-12">
+                                        <div class="modal-title">
+                                             <h2>Hydro Co</h2>
+                                        </div>
+
+                                        <!-- NAV TABS -->
+                                        <ul class="nav nav-tabs" role="tablist">
+                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Create an account</a></li>
+                                             <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Sign In</a></li>
+                                        </ul>
+
+                                        <!-- TAB PANES -->
+                                        <div class="tab-content">
+                                             <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
+                                                  <form action="#" method="post">
+                                                       <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                                       <input type="telephone" class="form-control" name="telephone" placeholder="Telephone" required>
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                  </form>
+                                             </div>
+
+                                             <div role="tabpanel" class="tab-pane fade in" id="sign_in">
+                                                  <form action="#" method="post">
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                       <a href="https://www.facebook.com/templatemo">Forgot your password?</a>
+                                                  </form>
+                                             </div>
+                                        </div>
+                                   </div>
+
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>
